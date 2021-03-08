@@ -7,9 +7,10 @@
 
 import * as React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Header from "./header"
+import SEO from "./seo"
+
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -25,6 +26,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <SEO title="EPPS ARCHITECTURE" />
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
@@ -33,15 +35,32 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <main>{children}</main>
+        <main style={{ display: "flex", flexDirection: "row", flexWrap: "nowrap" }}>
+            <nav style={{ width: '30%' }}>
+                <MainMenu />
+            </nav>
+            <section>
+                {children}
+            </section>
+        </main>
         <footer
           style={{
             marginTop: `2rem`,
+            display: "flex",
+            flexDirection: "row",
+            flexWrap: "nowrap",
+            justifyContent: "space-between",
           }}
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+            <FooterItem>1 PINCKNEY STREET</FooterItem>
+            <FooterItem size={3} grow={false}>&middot;</FooterItem>
+            <FooterItem>CHARLESTON</FooterItem>
+            <FooterItem size={3} grow={false}>&middot;</FooterItem>
+            <FooterItem>SOUTH CAROLINA 29401</FooterItem>
+            <FooterItem size={3} grow={false}>&middot;</FooterItem>
+            <FooterItem>PHONE (843) 577-2080</FooterItem>
+            <FooterItem size={3} grow={false}>&middot;</FooterItem>
+            <FooterItem>FAX (843) 577-2080</FooterItem>
         </footer>
       </div>
     </>
@@ -53,3 +72,34 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+const MainMenu = () => {
+    const MENU_ITEMS = [
+        { name: 'RESIDENTIAL', path: '/residential' },
+        { name: 'COMMERCIAL', path: '/commercial' },
+        { name: 'GOVERNMENT', path: '/government' },
+        { name: 'INTERIORS', path: '/interiors' },
+        { name: 'RETROFIT', path: '/retrofit' },
+    ]
+
+    return (
+        <ul style={{ display: "flex", flexDirection: "column", listStyle: 'none', margin: 0, }}>
+            {MENU_ITEMS.map(i => (
+                <li key={i.name}>
+                    <Link style={{ color: "#ffffff", textDecoration: 'none', fontSize: "0.9rem", fontWeight: "100", }} to={i.path}>{i.name}</Link>
+                </li>
+            ))}
+        </ul>
+    )
+}
+
+const FooterItem = ({ children, size = .75, grow = true }) => {
+    return (<div style={{
+        flexGrow: grow ? 1 : 0,
+        flexBasis: "auto",
+        margin: grow ? "0.25em 0" : "0.05em 0px 0px 0px",
+        padding: grow ? "0 1em" : "0",
+        textAlign: "center",
+        fontSize: `${size}em`,
+    }}>{children}</div>)
+}
