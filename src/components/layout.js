@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
             <nav style={{ width: '30%' }}>
                 <MainMenu />
             </nav>
-            <section>
+            <section style={{width: '70%', position: 'relative', }}>
                 {children}
             </section>
         </main>
@@ -53,14 +53,14 @@ const Layout = ({ children }) => {
           }}
         >
             <FooterItem>1 PINCKNEY STREET</FooterItem>
-            <FooterItem size={3} grow={false}>&middot;</FooterItem>
+            <FooterItem grow={false}>&bull;</FooterItem>
             <FooterItem>CHARLESTON</FooterItem>
-            <FooterItem size={3} grow={false}>&middot;</FooterItem>
+            <FooterItem grow={false}>&bull;</FooterItem>
             <FooterItem>SOUTH CAROLINA 29401</FooterItem>
-            <FooterItem size={3} grow={false}>&middot;</FooterItem>
+            <FooterItem grow={false}>&bull;</FooterItem>
             <FooterItem>PHONE (843) 577-2080</FooterItem>
-            <FooterItem size={3} grow={false}>&middot;</FooterItem>
-            <FooterItem>FAX (843) 577-2080</FooterItem>
+            <FooterItem grow={false}>&bull;</FooterItem>
+            <FooterItem><a href="email:eppsarch@att.net" style={{ color: "#ffffff", textDecoration: 'none', }}>EPPSARCH@ATT.NET</a></FooterItem>
         </footer>
       </div>
     </>
@@ -75,11 +75,11 @@ export default Layout
 
 const MainMenu = () => {
     const MENU_ITEMS = [
-        { name: 'RESIDENTIAL', path: '/residential' },
-        { name: 'COMMERCIAL', path: '/commercial' },
-        { name: 'GOVERNMENT', path: '/government' },
-        { name: 'INTERIORS', path: '/interiors' },
-        { name: 'RETROFIT', path: '/retrofit' },
+        { name: 'RESIDENTIAL', path: '/residential/' },
+        { name: 'COMMERCIAL', path: '/commercial/' },
+        { name: 'GOVERNMENT', path: '/government/' },
+        { name: 'INTERIORS', path: '/interiors/' },
+        { name: 'RETROFIT', path: '/retrofit/' },
     ]
 
     return (
@@ -97,7 +97,7 @@ const FooterItem = ({ children, size = .75, grow = true }) => {
     return (<div style={{
         flexGrow: grow ? 1 : 0,
         flexBasis: "auto",
-        margin: grow ? "0.25em 0" : "0.05em 0px 0px 0px",
+        margin: "0.25em 0",
         padding: grow ? "0 1em" : "0",
         textAlign: "center",
         fontSize: `${size}em`,

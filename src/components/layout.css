@@ -63,12 +63,16 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
   color: "#ffffff";
-  text-decoration: 'none';
+  text-decoration: none;
   font-weight: 100;
 }
 a:active,
-a:hover {
-  outline-width: 0;
+a:hover,
+a:focus {
+    outline-style: none !important;
+    outline: 1px none #bbbbbb !important;
+    border-bottom: 1px solid #bbbbbb;
+    color: #bbb;
 }
 abbr[title] {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
@@ -203,7 +207,7 @@ button::-moz-focus-inner {
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring,
 button:-moz-focusring {
-  outline: 1px dotted ButtonText;
+  outline: 1px none ButtonText;
 }
 fieldset {
   border: 1px solid silver;
@@ -606,4 +610,38 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: transparent;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: transparent;
+    border-bottom: 1px solid #bbbbbb;
+    color: #bbbbbb;
+}
+
+button:focus {
+    outline: 1px none #fff;
+    outline-offset: 1px;
+}
+
+button:active {
+    transform: scale(0.99);
 }
