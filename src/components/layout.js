@@ -45,11 +45,13 @@ const Layout = ({ children }) => {
         </main>
         <footer
           style={{
-            marginTop: `2rem`,
+            margin: `2rem auto`,
             display: "flex",
             flexDirection: "row",
             flexWrap: "nowrap",
             justifyContent: "space-between",
+            position: "fixed",
+            bottom: 0,
           }}
         >
             <FooterItem>1 PINCKNEY STREET</FooterItem>
