@@ -64,6 +64,24 @@ const Residential = () => {
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
+            src="../images/residential/4-21.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Residential"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/residential/4-22.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Residential"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
             src="../images/residential/4-10.jpg"
             width={380}
             quality={95}
@@ -155,24 +173,6 @@ const Residential = () => {
             backgroundColor="#444444"
             placeholder="none"
             src="../images/residential/4-13.jpg"
-            width={380}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Residential"
-        />,
-        <StaticImage
-            backgroundColor="#444444"
-            placeholder="none"
-            src="../images/residential/4-21.jpg"
-            width={380}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Residential"
-        />,
-        <StaticImage
-            backgroundColor="#444444"
-            placeholder="none"
-            src="../images/residential/4-22.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
