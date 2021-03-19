@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
+          width: 600,
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
@@ -43,17 +43,7 @@ const Layout = ({ children }) => {
                 {children}
             </section>
         </main>
-        <footer
-          style={{
-            margin: `2rem auto`,
-            display: "flex",
-            flexDirection: "row",
-            flexWrap: "nowrap",
-            justifyContent: "space-between",
-            position: "fixed",
-            bottom: 0,
-          }}
-        >
+        <footer className="footer">
             <FooterItem>1 PINCKNEY STREET</FooterItem>
             <FooterItem grow={false}>&bull;</FooterItem>
             <FooterItem>CHARLESTON</FooterItem>
@@ -95,7 +85,7 @@ const MainMenu = () => {
     )
 }
 
-const FooterItem = ({ children, size = .75, grow = true }) => {
+const FooterItem = ({ children, size = .5, grow = true }) => {
     return (<div style={{
         flexGrow: grow ? 1 : 0,
         flexBasis: "auto",

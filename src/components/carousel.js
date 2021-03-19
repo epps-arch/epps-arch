@@ -4,6 +4,8 @@ import PropTypes from "prop-types"
 const Carousel = ({ images }) =>  {
     const [currentSlide, setCurrentSlide] = React.useState(0);
     const numSlides = images.length - 1;
+    const prevDisabled = currentSlide === 0;
+    const nextDisabled = currentSlide === numSlides;
 
     return (<>
         <div
@@ -12,6 +14,7 @@ const Carousel = ({ images }) =>  {
             display: 'flex',
             flexDirection: 'column',
             flexWrap: 'nowrap',
+            width: '100%',
         }}
         >
             <div
@@ -39,8 +42,14 @@ const Carousel = ({ images }) =>  {
                 }}
             >
                 <button
-                    style={{ width: '100px', display: 'flex', justifyContent: 'center', alignItems: 'center', }}
+                    style={{ 
+                        width: '100px', 
+                        display: 'flex', 
+                        justifyContent: 'center', 
+                        alignItems: 'center',
+                    }}
                     onClick={e => setCurrentSlide(Math.max(currentSlide - 1, 0))}
+                    disabled={prevDisabled}
                 >
                     <div style={{
                         margin: '0 auto',
@@ -48,12 +57,18 @@ const Carousel = ({ images }) =>  {
                         height: 0,
                         borderTop: '10px solid transparent',
                         borderBottom: '10px solid transparent',
-                        borderRight: '40px solid #ffffff',
+                        borderRight: !prevDisabled ? '40px solid #ffffff' : '40px solid #999999',
                     }}></div>
                 </button>
                 <button
-                    style={{ width: '100px', display: 'flex', justifyContent: 'center', alignItems: 'center', }}
+                    style={{
+                        width: '100px',
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                    }}
                     onClick={e => setCurrentSlide(Math.min(currentSlide + 1, numSlides))}
+                    disabled={nextDisabled}
                 >
                     <div style={{
                         margin: '0 auto',
@@ -61,7 +76,7 @@ const Carousel = ({ images }) =>  {
                         height: 0,
                         borderTop: '10px solid transparent',
                         borderBottom: '10px solid transparent',
-                        borderLeft: '40px solid #ffffff',
+                        borderLeft: !nextDisabled ? '40px solid #ffffff' : '40px solid #999999',
                     }}></div>
                 </button>
             </div>

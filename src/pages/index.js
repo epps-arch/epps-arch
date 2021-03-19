@@ -1,10 +1,8 @@
 import * as React from "react"
-
-import Layout from "../components/layout"
+import Residential from "./residential"
 
 const IndexPage = () => (
-  <Layout>
-  </Layout>
+  <Residential />
 )
 
 export default IndexPage

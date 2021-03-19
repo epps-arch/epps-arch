@@ -633,8 +633,13 @@ button {
 button:hover,
 button:focus {
     background: transparent;
-    border-bottom: 1px solid #bbbbbb;
     color: #bbbbbb;
+    transform: scale(1.2);
+}
+
+button:disabled {
+    transform: scale(1);
+    cursor: not-allowed;
 }
 
 button:focus {
@@ -644,4 +649,12 @@ button:focus {
 
 button:active {
     transform: scale(0.99);
+}
+
+.footer {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
