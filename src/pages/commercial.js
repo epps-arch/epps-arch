@@ -25,15 +25,15 @@ const Commercial = () => {
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Commerical #2"
         />,
-        <StaticImage
-            backgroundColor="#444444"
-            placeholder="none"
-            src="../images/commercial/5-9.jpg"
-            width={380}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Commerical #3"
-        />,
+        // <StaticImage
+        //     backgroundColor="#444444"
+        //     placeholder="none"
+        //     src="../images/commercial/5-9.jpg"
+        //     width={380}
+        //     quality={95}
+        //     formats={["AUTO", "WEBP", "AVIF"]}
+        //     alt="Commerical #3"
+        // />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"

@@ -133,15 +133,15 @@ const Residential = () => {
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Residential"
         />,
-        <StaticImage
-            backgroundColor="#444444"
-            placeholder="none"
-            src="../images/residential/4-27.jpg"
-            width={255}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Residential"
-        />,
+        // <StaticImage
+        //     backgroundColor="#444444"
+        //     placeholder="none"
+        //     src="../images/residential/4-27.jpg"
+        //     width={255}
+        //     quality={95}
+        //     formats={["AUTO", "WEBP", "AVIF"]}
+        //     alt="Residential"
+        // />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
