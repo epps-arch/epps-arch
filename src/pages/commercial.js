@@ -28,11 +28,29 @@ const Commercial = () => {
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
+            src="../images/commercial/5-9.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Commerical #3"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
             src="../images/commercial/5-3.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Commerical #3"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/commercial/5-10.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Commerical #4"
         />,
         <StaticImage
             backgroundColor="#444444"
@@ -55,6 +73,15 @@ const Commercial = () => {
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
+            src="../images/commercial/5-8.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Commerical #8"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
             src="../images/commercial/5-6.jpg"
             width={380}
             quality={95}
@@ -69,15 +96,6 @@ const Commercial = () => {
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Commerical #7"
-        />,
-        <StaticImage
-            backgroundColor="#444444"
-            placeholder="none"
-            src="../images/commercial/5-8.jpg"
-            width={380}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Commerical #8"
         />,
     ]
 

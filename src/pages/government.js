@@ -78,6 +78,15 @@ const Government = () => {
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Government #8"
         />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/government/2-10.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Government #8"
+        />,
     ]
 
     return (
