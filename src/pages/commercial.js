@@ -10,92 +10,101 @@ const Commercial = () => {
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/commercial/5-2.jpg"
+            src="../images/commercial/cannon-001.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Commerical #1"
+            alt="Commerical"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/commercial/5-1.jpg"
+            src="../images/commercial/cannon-002.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Commerical #2"
-        />,
-        // <StaticImage
-        //     backgroundColor="#444444"
-        //     placeholder="none"
-        //     src="../images/commercial/5-9.jpg"
-        //     width={380}
-        //     quality={95}
-        //     formats={["AUTO", "WEBP", "AVIF"]}
-        //     alt="Commerical #3"
-        // />,
-        <StaticImage
-            backgroundColor="#444444"
-            placeholder="none"
-            src="../images/commercial/5-3.jpg"
-            width={380}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Commerical #3"
+            alt="Commerical"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/commercial/5-10.jpg"
+            src="../images/commercial/cannon-003.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Commerical #4"
+            alt="Commerical"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/commercial/5-5.jpg"
+            src="../images/commercial/cannon-003a.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Commerical #4"
+            alt="Commerical"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/commercial/5-4.jpg"
+            src="../images/commercial/cannon-004.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Commerical #5"
+            alt="Commerical"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/commercial/5-8.jpg"
+            src="../images/commercial/music-hall-001.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Commerical #8"
+            alt="Commerical"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/commercial/5-6.jpg"
+            src="../images/commercial/music-hall-002.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Commerical #6"
+            alt="Commerical"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/commercial/5-7.jpg"
+            src="../images/commercial/music-hall-003.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Commerical #7"
+            alt="Commerical"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/commercial/music-hall-004.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Commerical"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/commercial/music-hall-005.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Commerical"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/commercial/music-hall-006.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Commerical"
         />,
     ]
 

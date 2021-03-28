@@ -9,191 +9,272 @@ const Retrofit = () => {
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-1.jpg"
+            src="../images/retrofit/kerrisons-001.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #1"
+            alt="Retrofit"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-2.jpg"
+            src="../images/retrofit/kerrisons-002.jpg"
             width={255}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #2"
+            alt="Retrofit"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-10.jpg"
+            src="../images/retrofit/phillips-001.jpg"
             width={255}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #3"
+            alt="Retrofit"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-4.jpg"
+            src="../images/retrofit/phillips-002.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #4"
+            alt="Retrofit"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-5.jpg"
+            src="../images/retrofit/phillips-003.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Retrofit"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/retrofit/phillips-004.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Retrofit"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/retrofit/phillips-005.jpg"
             width={255}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #5"
+            alt="Retrofit"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-6.jpg"
-            width={380}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #6"
-        />,
-        <StaticImage
-            backgroundColor="#444444"
-            placeholder="none"
-            src="../images/retrofit/3-7.jpg"
-            width={380}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #7"
-        />,
-        <StaticImage
-            backgroundColor="#444444"
-            placeholder="none"
-            src="../images/retrofit/3-8.jpg"
+            src="../images/retrofit/phillips-006.jpg"
             width={255}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #8"
+            alt="Retrofit"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-9.jpg"
+            src="../images/retrofit/phillips-007.jpg"
             width={255}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #9"
+            alt="Retrofit"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-12.jpg"
+            src="../images/retrofit/phillips-008.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Retrofit"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/retrofit/tradd-001.jpg"
             width={255}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #10"
+            alt="Retrofit"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-3.jpg"
+            src="../images/retrofit/tradd-002.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #11"
+            alt="Retrofit"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-13.jpg"
+            src="../images/retrofit/east-bay-001.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #12"
+            alt="Retrofit"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-16.jpg"
+            src="../images/retrofit/east-bay-002.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #13"
+            alt="Retrofit"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-14.jpg"
+            src="../images/retrofit/east-bay-003.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #14"
+            alt="Retrofit"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-15.jpg"
+            src="../images/retrofit/east-bay-004.jpg"
             width={255}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #15"
+            alt="Retrofit"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-17.jpg"
-            width={380}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #16"
-        />,
-        <StaticImage
-            backgroundColor="#444444"
-            placeholder="none"
-            src="../images/retrofit/3-18.jpg"
+            src="../images/retrofit/king-001.jpg"
             width={255}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #17"
+            alt="Retrofit"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-19.jpg"
+            src="../images/retrofit/king-002.jpg"
             width={255}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #18"
+            alt="Retrofit"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-20.jpg"
-            width={380}
+            src="../images/retrofit/king-003.jpg"
+            width={255}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #19"
+            alt="Retrofit"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-21.jpg"
+            src="../images/retrofit/king-004.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #20"
+            alt="Retrofit"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/3-22.jpg"
+            src="../images/retrofit/king-005.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit #21"
+            alt="Retrofit"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/retrofit/king-006.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Retrofit"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/retrofit/king-007.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Retrofit"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/retrofit/king-008.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Retrofit"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/retrofit/king-009.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Retrofit"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/retrofit/george-001.jpg"
+            width={255}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Retrofit"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/retrofit/george-002.jpg"
+            width={255}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Retrofit"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/retrofit/george-003.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Retrofit"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/retrofit/george-004.jpg"
+            width={255}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Retrofit"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/retrofit/george-005.jpg"
+            width={255}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Retrofit"
         />,
     ]
 

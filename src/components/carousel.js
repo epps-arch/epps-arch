@@ -6,7 +6,7 @@ const Carousel = ({ images }) =>  {
     const numSlides = images.length - 1;
     const prevDisabled = currentSlide === 0;
     const nextDisabled = currentSlide === numSlides;
-
+    const hideButtons = prevDisabled && nextDisabled;
     return (<>
         <div
         style={{
@@ -41,7 +41,7 @@ const Carousel = ({ images }) =>  {
                     justifyContent: "space-between",
                 }}
             >
-                <button
+                {!hideButtons && <button
                     style={{ 
                         width: '100px', 
                         display: 'flex', 
@@ -59,8 +59,8 @@ const Carousel = ({ images }) =>  {
                         borderBottom: '10px solid transparent',
                         borderRight: !prevDisabled ? '40px solid #ffffff' : '40px solid #999999',
                     }}></div>
-                </button>
-                <button
+                </button>}
+                {!hideButtons && <button
                     style={{
                         width: '100px',
                         display: 'flex',
@@ -78,7 +78,7 @@ const Carousel = ({ images }) =>  {
                         borderBottom: '10px solid transparent',
                         borderLeft: !nextDisabled ? '40px solid #ffffff' : '40px solid #999999',
                     }}></div>
-                </button>
+                </button>}
             </div>
         </div>
     </>)

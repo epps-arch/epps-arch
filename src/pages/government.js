@@ -9,83 +9,83 @@ const Government = () => {
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/government/2-1.jpg"
+            src="../images/government/museum-001.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Government #1"
+            alt="Government"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/government/2-2.jpg"
+            src="../images/government/museum-002.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Government #2"
+            alt="Government"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/government/2-3.jpg"
+            src="../images/government/museum-003.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Government #3"
+            alt="Government"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/government/2-4.jpg"
+            src="../images/government/border-001.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Government #4"
+            alt="Government"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/government/2-5.jpg"
+            src="../images/government/border-002.jpg"
             width={255}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Government #5"
+            alt="Government"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/government/2-6.jpg"
+            src="../images/government/border-003.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Government #6"
+            alt="Government"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/government/2-7.jpg"
+            src="../images/government/city-plan-001.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Government #7"
+            alt="Government"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/government/2-8.jpg"
+            src="../images/government/city-plan-002.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Government #8"
+            alt="Government"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/government/2-10.jpg"
+            src="../images/government/post-office-001.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Government #8"
+            alt="Government"
         />,
     ]
 

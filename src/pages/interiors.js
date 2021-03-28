@@ -9,110 +9,182 @@ const Interiors = () => {
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/interiors/1-1.jpg"
+            src="../images/interiors/south-city-001.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Interiors #1"
+            alt="Interiors"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/interiors/1-8.jpg"
+            src="../images/interiors/south-city-002.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Interiors #2"
+            alt="Interiors"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/interiors/1-7.jpg"
+            src="../images/interiors/south-city-003.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Interiors #3"
+            alt="Interiors"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/interiors/1-4.jpg"
+            src="../images/interiors/south-city-004.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Interiors #4"
+            alt="Interiors"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/interiors/1-11.jpg"
+            src="../images/interiors/anderson-001.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Interiors #5"
+            alt="Interiors"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/interiors/1-6.jpg"
+            src="../images/interiors/anderson-002.jpg"
             width={255}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Interiors #6"
+            alt="Interiors"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/interiors/1-5.jpg"
-            width={255}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Interiors #7"
-        />,
-        <StaticImage
-            backgroundColor="#444444"
-            placeholder="none"
-            src="../images/interiors/1-2.jpg"
+            src="../images/interiors/anderson-003.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Interiors #8"
+            alt="Interiors"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/interiors/1-12.jpg"
-            width={380}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Interiors #9"
-        />,
-        <StaticImage
-            backgroundColor="#444444"
-            placeholder="none"
-            src="../images/interiors/1-9.jpg"
+            src="../images/interiors/anderson-004.jpg"
             width={255}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Interiors #10"
+            alt="Interiors"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/interiors/1-3.jpg"
+            src="../images/interiors/annes-001.jpg"
             width={380}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Interiors #11"
+            alt="Interiors"
         />,
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/interiors/1-10.jpg"
+            src="../images/interiors/annes-002.jpg"
             width={255}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Interiors #12"
+            alt="Interiors"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/interiors/annes-003.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Interiors"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/interiors/east-cafe-001.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Interiors"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/interiors/east-cafe-002.jpg"
+            width={255}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Interiors"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/interiors/east-cafe-003.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Interiors"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/interiors/cobb-001.jpg"
+            width={380}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Interiors"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/interiors/cobb-002.jpg"
+            width={255}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Interiors"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/interiors/cobb-003.jpg"
+            width={255}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Interiors"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/interiors/cobb-004.jpg"
+            width={255}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Interiors"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/interiors/cobb-005.jpg"
+            width={255}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Interiors"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/interiors/cobb-006.jpg"
+            width={255}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Interiors"
         />,
     ]
     return (
