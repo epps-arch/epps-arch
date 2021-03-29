@@ -276,6 +276,24 @@ const Retrofit = () => {
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="Retrofit"
         />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/retrofit/epps-baldwin-001.jpg"
+            width={255}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Retrofit"
+        />,
+        <StaticImage
+            backgroundColor="#444444"
+            placeholder="none"
+            src="../images/retrofit/bird-house-001.jpg"
+            width={255}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="Retrofit"
+        />,
     ]
 
     return (
