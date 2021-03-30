@@ -90,15 +90,6 @@ const Retrofit = () => {
         <StaticImage
             backgroundColor="#444444"
             placeholder="none"
-            src="../images/retrofit/phillips-008.jpg"
-            width={380}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Retrofit"
-        />,
-        <StaticImage
-            backgroundColor="#444444"
-            placeholder="none"
             src="../images/retrofit/tradd-001.jpg"
             width={255}
             quality={95}
